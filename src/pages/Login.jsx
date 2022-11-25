@@ -3,6 +3,8 @@ import { mobile } from "../responsive";
 import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { login } from "../redux/apiCalls";
+import { useNavigate } from "react-router-dom";
+
 const Link = styled.a`
   margin: 5px 0px;
   font-size: 12px;
@@ -60,6 +62,8 @@ const Button = styled.button`
   }
 `;
 const Login = () => {
+  const navigate = useNavigate();
+
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const dispatch = useDispatch();
