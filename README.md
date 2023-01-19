@@ -11,6 +11,8 @@
   <li>Nodejs</li>
   <li>Stripe</li>
 </ul>
+<h2>Website</h2>
+https://shape-commerce.onrender.com/
 <h2>Getting Started</h2>
 <ol>
   <li>Clone the repository to your local machine</li>
