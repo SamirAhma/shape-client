@@ -60,9 +60,9 @@ const Icon = styled.div`
     transform: scale(1.1);
   }
 `;
-const Product = ({ item }) => {
+const Product = ({ item, key }) => {
   return (
-    <Container>
+    <Container key={key}>
       <Circle />
       <Image src={item.img} />
       <Info>
