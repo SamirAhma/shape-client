@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+<h1>README</h1>
+<h2>Introduction</h2>
+<p>This is a full-stack application built with React, MongoDB, Express, Node.js, and Stripe. It utilizes styled components for styling, features authentication using JSON Web Tokens, and uses Redux for state management. The application also includes integration with Stripe for payments.</p>
+<h2>Technologies Used</h2>
+<ul>
+  <li>Reactjs</li>
+  <li>Javascript</li>
+  <li>Redux</li>
+  <li>Mongodb</li>
+  <li>Express</li>
+  <li>Nodejs</li>
+  <li>Stripe</li>
+</ul>
+<h2>Website</h2>
+https://shape-commerce.onrender.com/
+<h2>Getting Started</h2>
+<ol>
+  <li>Clone the repository to your local machine</li>
+  <li>Run `npm install` in the root directory to install all dependencies</li>
+  <li>Run `npm start` to start the application</li>
+</ol>
+<h2>Conclusion</h2>
+<p>This application is a great starting point for building a full-stack application utilizing the technologies mentioned above. Feel free to customize and build upon the code to fit your needs.</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h1 align="center">Hi 👋, I'm Ahmaddin</h1>
+<h3 align="center">a passionate fullstack developer</h3>
 
-In the project directory, you can run:
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=samirahma&label=Profile%20views&color=0e75b6&style=flat" alt="samirahma" /> </p>
 
-### `yarn start`
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=samirahma" alt="samirahma" /></a> </p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- 👨‍💻 All of my projects are available at [ahmaddin.netlify.app](https://ahmaddin.netlify.app/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- 💬 Ask me about **react, nextjs, gatsbyjs**
 
-### `yarn test`
+- 📫 How to reach me **ahmaddin1000@gmail.com**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 📄 Know about my experiences [Resume](https://ahmaddin.netlify.app/ahmaddin.pdf)
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/ahmaddin-samir-240b68aa/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ahmaddin-samir-240b68aa/" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/samsa132" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="samsa132" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/samir1234/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="samir1234/" height="30" width="40" /></a>
+</p>
