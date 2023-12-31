@@ -70,6 +70,7 @@ const MenuItem = styled.div`
 
 const Navbar = () => {
   const quantity = useSelector((state) => state.cart.quantity);
+  const user = useSelector((state) => state.user.currentUser);
 
   return (
     <Container>
@@ -85,12 +86,18 @@ const Navbar = () => {
           <Logo>SHAPE.</Logo>
         </Center>
         <Right>
-          <Link className="linkNavbar" to="/register">
-            <MenuItem>REGISTER</MenuItem>
-          </Link>
-          <Link className="linkNavbar" to="/login">
-            <MenuItem>SIGN IN</MenuItem>
-          </Link>
+          {user == undefined ? (
+            <>
+              <Link className="linkNavbar" to="/register">
+                <MenuItem>REGISTER</MenuItem>
+              </Link>
+              <Link className="linkNavbar" to="/login">
+                <MenuItem>SIGN IN</MenuItem>
+              </Link>
+            </>
+          ) : (
+            <>Logout</>
+          )}
           <Link to="/cart">
             <MenuItem>
               <Badge badgeContent={quantity} color="primary">

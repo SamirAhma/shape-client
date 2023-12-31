@@ -10,6 +10,7 @@ import { useState } from "react";
 import { userRequest } from "../requestMethod";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+
 const KEY = process.env.REACT_APP_STRIPE;
 const Container = styled.div``;
 const Wrapper = styled.div`
@@ -150,7 +151,13 @@ const Cart = () => {
           tokenId: stripeToken.id,
           amount: 500,
         });
-        navigate("/success", { data: res.data });
+
+        navigate("/success", {
+          state: {
+            stripeData: res.data,
+            products: cart,
+          },
+        });
       } catch (err) {
         console.log(err);
       }
@@ -163,6 +170,11 @@ const Cart = () => {
       <Announcement />
       <Wrapper>
         <Title>YOUR BAG</Title>
+        <div>
+          <div>4242-4242-4242-4242</div>
+          <p>08/24</p>
+          <p>123</p>
+        </div>
         <Top>
           <TopButton>CONTINUE SHOPPING</TopButton>
           <TopTexts>
