@@ -4,9 +4,10 @@ import styled from "styled-components";
 import Badge from "@mui/material/Badge";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import { mobile } from "../responsive";
-import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+import { useDispatch, useSelector } from "react-redux";
+import { Link, useNavigate } from "react-router-dom";
 import "./style.css";
+import { logout } from "../redux/userRedux";
 
 const Container = styled.div`
   height: 60px;
@@ -71,7 +72,16 @@ const MenuItem = styled.div`
 const Navbar = () => {
   const quantity = useSelector((state) => state.cart.quantity);
   const user = useSelector((state) => state.user.currentUser);
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
 
+  const handleLogout = () => {
+    // You might want to perform additional logout-related actions here
+    // (e.g., clear local storage, redirect the user, etc.)
+    // Dispatch the logout action
+    dispatch(logout());
+    navigate("/login");
+  };
   return (
     <Container>
       <Wrapper>
@@ -83,7 +93,9 @@ const Navbar = () => {
           </SearchContainer>
         </Left>
         <Center>
-          <Logo>SHAPE.</Logo>
+          <Link to="/" className="linkNavbar">
+            <Logo>SHAPE.</Logo>
+          </Link>
         </Center>
         <Right>
           {user == undefined ? (
@@ -96,7 +108,7 @@ const Navbar = () => {
               </Link>
             </>
           ) : (
-            <>Logout</>
+            <MenuItem onClick={handleLogout}>Logout</MenuItem>
           )}
           <Link to="/cart">
             <MenuItem>
